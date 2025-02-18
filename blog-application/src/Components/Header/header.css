@@ -1,0 +1,30 @@
+*{ 
+    margin: 0px;
+    font-family: "Poppins", serif;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+}
+
+.titleX {
+    position: absolute;
+    top: 16%;
+    font-size: 18px;
+}
+.titleY {
+    position: absolute;
+    top: 18%;
+    font-size: 100px;
+}
+
+.headerImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 80px;
+}

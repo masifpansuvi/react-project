@@ -1,0 +1,47 @@
+.post-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 2rem 1rem 3.3rem;
+    gap: 4rem;
+}
+.post-item {
+    width: 40%;    
+}
+.post-item > img {
+    border-radius: 7px;
+}
+.post-item .about-post {
+    text-align: center;
+    font-weight: 300;
+    color: #797373;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -7px;
+}
+.post-item .post-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.post-item .post-time {
+    text-align: center;
+    font-weight: semi-bold;
+    margin: 10px 0px;
+    color: #999999;
+}
+.post-describ {
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
