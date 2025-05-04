@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeee4;
+}
+
+.main-container {
+    margin: 20px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
+    background-color: white;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}

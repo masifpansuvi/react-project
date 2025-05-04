@@ -1,6 +1,6 @@
-import "./pagesStyle.css"
-import Header from '../../Components/Header/Header'
-import SIdeBar from '../../Components/SideBar/SIdeBar'
+//import "./pagesStyle.css"
+import Header from '../../Components/Header/Header.jsx'
+import SIdeBar from '../../Components/SideBar/SIdeBar.jsx'
 import Posts from '../../Components/Posts/Posts'
 
 function Home() {
